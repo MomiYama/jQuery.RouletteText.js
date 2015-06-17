@@ -5,7 +5,7 @@
 Martin Angelov氏の[shuffleLetters](http://tutorialzine.com/2011/09/shuffle-letters-effect-jquery/)
 を拡張
 
-[sample](https://raw.githubusercontent.com/MomiYama/jQuery.RouletteText.js/master/sample.html)
+[sample](https://rawgit.com/MomiYama/jQuery.RouletteText.js/master/sample.html)
 
 ## Features(拡張した点)
 - 変化する文字列を指定できるように拡張
