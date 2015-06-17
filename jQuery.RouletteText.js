@@ -26,7 +26,7 @@
                 pool += (types.indexOf("l") == -1) ? "" : "abcdefghijklmnopqrstuvwxyz";
                 pool += (types.indexOf("u") == -1) ? "" : "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
                 pool += (types.indexOf("n") == -1) ? "" : "1234567890";
-                pool += (types.indexOf("s") == -1) ? "" : "/*-+.,?';:][}{=_)(!@#$%^&";
+                pool += (types.indexOf("s") == -1) ? "" : "/*'$%^;:][}{=_)(-+.,?!@#&";
             }
             function randomChar() {
                 return pool[Math.floor(Math.random() * pool.length)];
