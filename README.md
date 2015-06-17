@@ -8,7 +8,7 @@ Martin Angelov氏の[shuffleLetters](http://tutorialzine.com/2011/09/shuffle-let
 [sample](https://rawgit.com/MomiYama/jQuery.RouletteText.js/master/sample.html)
 
 ## Features(拡張した点)
-- 変化する文字列を指定できるように拡張
+- 変化する文字列を指定できるように拡張 
 
 ## Usage
  "pool" はシャッフルする時に表示される文字の変更。
