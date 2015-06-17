@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8"/>
+    <title>Sample</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
+    <script src="jQuery.RouletteText.js"></script>
+</head>
+<body onload="$('#hl').RouletteText()">
+<h1 id="hl">
+    Clickしてね
+</h1>
+<div onclick="$(this).RouletteText()">していなししていなし</div>
+<div onclick="$(this).RouletteText({'types':'l'})">こもじこもじこもじ</div>
+<div onclick="$(this).RouletteText({'types':'u'})">おおもじおおもじおおもじ</div>
+<div onclick="$(this).RouletteText({'types':'n'})">すうじすうじすうじ</div>
+<div onclick="$(this).RouletteText({'types':'s'})">きごうきごうきごう</div>
+<div onclick="$(this).RouletteText({'pool':'sample'})">pool:"sample"</div>
+<div style="font-family: monospace;font-size: 5em" onclick="$(this).RouletteText({'nullchar':'-'})">まいなすまいなすまいなす</div>
+</body>
+</html>
